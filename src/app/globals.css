@@ -71,6 +71,7 @@ em { font-family: Georgia, "Times New Roman", serif; font-weight: 400; letter-sp
 .ticker { border-bottom: 1px solid var(--line); border-top: 1px solid var(--line); overflow: hidden; white-space: nowrap; }
 .ticker__track { align-items: center; animation: marquee 24s linear infinite; display: flex; min-width: max-content; padding: 18px 0; width: max-content; }
 .ticker__group { align-items: center; display: flex; flex: 0 0 auto; gap: 34px; padding-right: 34px; }
+.ticker__track { -webkit-mask-image: linear-gradient(90deg, transparent, #000 4%, #000 96%, transparent); mask-image: linear-gradient(90deg, transparent, #000 4%, #000 96%, transparent); }
 .ticker__track span { font-size: 11px; letter-spacing: .12em; }
 .ticker__track i { color: var(--orange); font-size: 17px; font-style: normal; }
 
