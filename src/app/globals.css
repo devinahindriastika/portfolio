@@ -131,7 +131,7 @@ em { font-family: Georgia, "Times New Roman", serif; font-weight: 400; letter-sp
 .project-scene__copy h2 { font-size: clamp(3.2rem, 6vw, 7rem); font-weight: 600; letter-spacing: -.1em; line-height: .82; margin: 18px 0 22px; }
 .project-scene__copy p { color: var(--orange); font-size: 12px; margin: 0 0 18px; text-transform: uppercase; }
 .project-scene__copy small { display: block; font-size: 14px; line-height: 1.5; max-width: 330px; }
-.project-scene__link { align-items: center; border-bottom: 1px solid rgba(255,255,255,.45); bottom: 8%; color: var(--ink); display: flex; font-size: 12px; gap: 8px; padding-bottom: 10px; position: absolute; right: 8%; z-index: 2; }
+.project-scene__link { align-items: center; border-bottom: 1px solid rgba(255,255,255,.45); bottom: 8%; color: var(--ink); display: flex; font-size: 12px; gap: 8px; padding-bottom: 10px; position: absolute; right: 8%; z-index: 4; }
 .project-showcase__progress { background: rgba(11,11,11,.25); bottom: 2vh; height: 2px; left: 0; overflow: hidden; position: absolute; right: 0; z-index: 2; }
 .project-showcase__progress div { background: var(--ink); height: 100%; transform-origin: left; width: 100%; }
 
@@ -242,7 +242,7 @@ em { font-family: Georgia, "Times New Roman", serif; font-weight: 400; letter-sp
   .project-scene__copy { align-self: start; max-width: none; padding: 9% 7% 18%; }
   .project-scene__copy h2 { font-size: clamp(3.2rem, 16vw, 6rem); }
   .project-scene__copy small { max-width: 270px; }
-  .project-scene__link { bottom: 6%; left: 7%; right: auto; z-index: 4; }
+  .project-scene__link { bottom: 6%; left: 7%; right: auto; }
   .reel { padding-bottom: 100px; }
   .reel__stage { height: 115vw; }
   .reel__orbit { height: 45%; width: 55%; }
