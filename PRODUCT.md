@@ -24,7 +24,7 @@ The portfolio leads with a clear point of view and project outcomes rather than 
 
 ## Capabilities and Constraints
 
-- Initial surface: a single-page portfolio with hero, learning/project entries, experience timeline, capabilities, and a connection CTA.
+- Initial surface: a single-page portfolio with hero, support/project entries, experience timeline, capabilities, and a connection CTA.
 - Content should remain honest about Devina's beginner level and be expanded with real project details over time.
 - Must work responsively and remain accessible by keyboard.
 

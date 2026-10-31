@@ -15,10 +15,10 @@ const projects = [
   },
   {
     number: "02",
-    title: "Learning in Public",
-    type: "Basic IT projects · Ongoing",
+    title: "Support in Practice",
+    type: "Technical support · QA · Ongoing",
     description:
-      "Membangun fondasi lewat Python, JavaScript, Java, MySQL, dan eksperimen kecil selama belajar Informatika.",
+      "Mengembangkan kemampuan troubleshooting, dokumentasi, QA, dan problem solving lewat kasus support dan latihan teknis.",
     className: "project--blue",
   },
   {
@@ -192,7 +192,7 @@ function LearningReel() {
         <div className="reel__orbit reel__orbit--two" />
         <div className="reel__copy">
           <span>PLAY / 01</span>
-          <strong>LEARNING<br /><em>IN MOTION.</em></strong>
+          <strong>SUPPORT<br /><em>IN PRACTICE.</em></strong>
         </div>
         <span className="reel__play" aria-hidden="true">↗</span>
       </a>
@@ -271,7 +271,7 @@ export default function Home() {
 
       <div className="ticker" aria-hidden="true">
         <div className="ticker__track">
-          <span>DEVINA HINDRIASTIKA</span><i>✳</i><span>TECHNICAL SUPPORT</span><i>✳</i><span>LEARNING IN PUBLIC</span><i>✳</i><span>DEVINA HINDRIASTIKA</span><i>✳</i>
+          <span>DEVINA HINDRIASTIKA</span><i>✳</i><span>TECHNICAL SUPPORT</span><i>✳</i><span>QA & PROBLEM SOLVING</span><i>✳</i><span>DEVINA HINDRIASTIKA</span><i>✳</i>
         </div>
       </div>
 
