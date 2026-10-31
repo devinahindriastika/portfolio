@@ -119,6 +119,7 @@ em { font-family: Georgia, "Times New Roman", serif; font-weight: 400; letter-sp
 .scene-scan { background: linear-gradient(90deg, transparent, rgba(243,243,239,.4), transparent); height: 1px; left: -20%; position: absolute; top: 28%; transform: rotate(-18deg); width: 140%; }
 .project--orange .scene-scan { background: linear-gradient(90deg, transparent, rgba(11,11,11,.4), transparent); }
 .project--yellow .scene-scan { top: 68%; transform: rotate(18deg); }
+.project--orange .project-scene__art::after { background: #f3f3ef; border: 1px solid rgba(11,11,11,.42); border-radius: 50%; box-shadow: 0 14px 30px rgba(11,11,11,.28), 0 0 0 10px rgba(243,243,239,.16); content: ""; height: clamp(220px, 26vw, 330px); position: absolute; right: 7%; top: 50%; transform: translateY(-50%); width: clamp(220px, 26vw, 330px); z-index: 1; }
 .project-scene__logo { height: clamp(120px, 18vw, 220px); object-fit: contain; position: absolute; right: 14%; top: 50%; transform: translateY(-50%); width: clamp(120px, 18vw, 220px); z-index: 2; }
 .project--orange .scene-shape--one { height: 48%; left: 8%; opacity: .8; top: 15%; width: 56%; }
 .project--orange .scene-shape--two { bottom: 12%; opacity: .85; right: 9%; }
@@ -221,6 +222,7 @@ em { font-family: Georgia, "Times New Roman", serif; font-weight: 400; letter-sp
   .project-showcase__sticky { padding-top: 7vh; }
   .project-scene { grid-template-columns: 1fr; grid-template-rows: 42% 58%; inset: 8vh 0 14vh; }
   .project-scene__art { min-height: 0; }
+  .project--orange .project-scene__art::after { height: 190px; right: 50%; transform: translate(50%, -50%); width: 190px; }
   .project-scene__logo { height: 128px; right: 50%; top: 50%; transform: translate(50%, -50%); width: 128px; }
   .project--orange .scene-shape--one { height: 58%; left: 8%; top: 16%; width: 62%; }
   .project--orange .scene-shape--two { bottom: 8%; right: 8%; }
