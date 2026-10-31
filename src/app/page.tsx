@@ -300,7 +300,11 @@ export default function Home() {
 
       <div className="ticker" aria-hidden="true">
         <div className="ticker__track">
-          <span>DEVINA HINDRIASTIKA</span><i>✳</i><span>TECHNICAL SUPPORT</span><i>✳</i><span>QA & PROBLEM SOLVING</span><i>✳</i><span>DEVINA HINDRIASTIKA</span><i>✳</i>
+          {[0, 1].map((copy) => (
+            <div className="ticker__group" key={copy}>
+              <span>DEVINA HINDRIASTIKA</span><i>✳</i><span>TECHNICAL SUPPORT</span><i>✳</i><span>QA &amp; PROBLEM SOLVING</span><i>✳</i>
+            </div>
+          ))}
         </div>
       </div>
 
