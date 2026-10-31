@@ -170,6 +170,30 @@ function ProjectShowcase() {
   );
 }
 
+function AboutPortrait() {
+  const portraitRef = useRef<HTMLDivElement>(null);
+  const { scrollYProgress } = useScroll({
+    target: portraitRef,
+    offset: ["start end", "end start"],
+  });
+  const imageY = useTransform(scrollYProgress, [0, 1], [34, -34]);
+  const imageScale = useTransform(scrollYProgress, [0, 0.5, 1], [1.08, 1, 1.08]);
+
+  return (
+    <motion.div className="about__portrait" ref={portraitRef} style={{ y: imageY }}>
+      <motion.div className="about__portrait-frame" style={{ scale: imageScale }}>
+        <Image
+          alt="Devina Hindriastika mengenakan blazer hitam"
+          fill
+          sizes="(max-width: 700px) 90vw, 36vw"
+          src="/devina-portrait.jpg"
+        />
+      </motion.div>
+      <span className="about__portrait-label">DEVINA / 2026</span>
+    </motion.div>
+  );
+}
+
 function LearningReel() {
   const reelRef = useRef<HTMLElement>(null);
   const { scrollYProgress } = useScroll({
@@ -300,6 +324,7 @@ export default function Home() {
             <br />
             <em>tetap bertumbuh.</em>
           </h2>
+          <AboutPortrait />
           <div className="about__copy">
             <p>
               Saya masih pemula di bidang IT, tetapi punya rasa ingin tahu,
