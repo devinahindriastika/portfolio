@@ -138,8 +138,13 @@ function ProjectScene({
         <p>{project.type}</p>
         <small>{project.description}</small>
       </motion.div>
-      <a className="project-scene__link" href="#contact">
-        View entry <ArrowUpRight />
+      <a
+        className="project-scene__link"
+        href={index === 0 ? "https://catalystforge.web.id" : "#contact"}
+        rel={index === 0 ? "noopener noreferrer" : undefined}
+        target={index === 0 ? "_blank" : undefined}
+      >
+        {index === 0 ? "Visit Catalyst Forge" : "Discuss this focus"} <ArrowUpRight />
       </a>
     </motion.article>
   );
