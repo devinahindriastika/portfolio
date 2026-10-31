@@ -231,10 +231,10 @@ em { font-family: Georgia, "Times New Roman", serif; font-weight: 400; letter-sp
   .scene-orbit--1 { transform: rotate(28deg) scaleX(1.2); }
   .scene-orbit--2 { transform: rotate(-38deg) scaleX(1.35); }
   .scene-orbit--3 { height: 66%; left: 9%; top: 17%; width: 82%; }
-  .project-scene__copy { align-self: start; max-width: none; padding: 9% 7% 0; }
+  .project-scene__copy { align-self: start; max-width: none; padding: 9% 7% 18%; }
   .project-scene__copy h2 { font-size: clamp(3.2rem, 16vw, 6rem); }
   .project-scene__copy small { max-width: 270px; }
-  .project-scene__link { bottom: 7%; left: 7%; right: auto; }
+  .project-scene__link { bottom: 6%; left: 7%; right: auto; z-index: 4; }
   .reel { padding-bottom: 100px; }
   .reel__stage { height: 115vw; }
   .reel__orbit { height: 45%; width: 55%; }
